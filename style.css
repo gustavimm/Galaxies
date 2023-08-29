@@ -3,3 +3,58 @@
     padding: 0;
     box-sizing:border-box;
 }
+
+body{
+    background: #121214;
+    padding: 72px 104px;
+    display: grid;
+    grid-template-columns: repeat(3);
+    place-content: center;
+}
+:root{
+    font-family: 'Mulish', sans-serif;
+}
+
+main{
+    display: grid;
+    grid-template-columns: repeat(3, 370px);
+    gap: 48px 60px;
+    display: grid;
+}
+
+.card{
+    border-radius: 8px;
+    border: 2px solid  #323238;
+    background: #202024;
+    overflow: hidden;
+}
+
+/* Sempre manter os seletores específicos */
+.card h2{
+    color: #E1E1E6;
+    font-size: 36px;
+    padding: 24px 32px 0;
+}
+
+.card p{
+    color: #C4C4CC;
+    font-size: 19.381px;
+    padding: 24px 32px 32px;
+}
+
+header h1{
+    color: #02799D;
+    font-size: 59px;
+    line-height: normal;
+}
+
+header p{
+    color: #E1E1E6;
+    font-size: 32px;
+    line-height: normal;
+    padding-bottom: 63px;
+}
+
+header{
+    padding: 8px;
+}
